@@ -25,7 +25,7 @@
  ARSENIC_AND := $(shell $(ARSENIC_AND_PATH)/bin/arm-linux-androideabi-gcc --version)
 
  # Path to kernel toolchain
- ARSENIC_KERNEL_PATH := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-$(TARGET_ARSENIC_KERNEL)
+ ARSENIC_KERNEL_PATH := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8$(TARGET_ARSENIC_KERNEL)
  ARSENIC_KERNEL := $(shell $(ARSENIC_KERNEL_PATH)/bin/arm-eabi-gcc --version)
 
  # Add extra libs for the compilers to use
