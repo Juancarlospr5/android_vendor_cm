@@ -1,3 +1,6 @@
+# Arsenic build optimizations
+include vendor/cm/config/arsenic/arsenic_opti.mk
+
 PRODUCT_BRAND ?= cyanogenmod
 
 ifneq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
@@ -215,6 +218,9 @@ endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
+
+# Arsenic Makefile
+include vendor/cm/config/arsenic/arsenic.mk
 
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
