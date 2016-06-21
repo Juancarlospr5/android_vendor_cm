@@ -117,6 +117,10 @@ PRODUCT_COPY_FILES += \
 # Enable wireless Xbox 360 controller support
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
+    
+# Assertive Display
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/ad_calib.cfg:system/etc/ad_calib.cfg
 
 # This is CM!
 PRODUCT_COPY_FILES += \
