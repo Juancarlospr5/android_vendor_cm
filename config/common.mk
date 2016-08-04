@@ -7,6 +7,26 @@ PRODUCT_BRAND ?= cyanogenmod
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
+# OTA Updater
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/Ota.apk:system/app/Ota.apk
+
+# LMT
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/LMT.apk:system/app/LMT.apk
+
+# bbs XDA
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/bbsxda.apk:system/app/bbsxda.apk
+
+# BBS
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/BBS.apk:system/app/BBS.apk
+
+# Synapse
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/synapse.apk:system/app/synapse.apk
+
 ifdef CM_NIGHTLY
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=cyanogenmodnightly
