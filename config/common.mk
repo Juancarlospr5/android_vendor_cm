@@ -7,10 +7,6 @@ PRODUCT_BRAND ?= cyanogenmod
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
-# OTA Updater
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/app/Ota.apk:system/app/Ota.apk
-
 # LMT
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/LMT.apk:system/app/LMT.apk
