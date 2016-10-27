@@ -159,6 +159,7 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     Trebuchet \
     AudioFX \
+    CMUpdater \
     LockClock \
     CyanogenSetupWizard \
     CMSettingsProvider \
